@@ -8,7 +8,7 @@
 
 ## IOS
 * Deploy font to project
-![release/debug] (images/android.png)
+![release/debug] (images/ios.png)
 * Create or Edit file `info.plist.TemplateiOS.xml`
 ```
 <?xml version="1.0" encoding="UTF-8"?>
