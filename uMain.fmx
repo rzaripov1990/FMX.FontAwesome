@@ -1,0 +1,80 @@
+object FormMain: TFormMain
+  Left = 0
+  Top = 0
+  Caption = 'Custom Font'
+  ClientHeight = 453
+  ClientWidth = 340
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 3
+  object ToolBar1: TToolBar
+    Size.Width = 340.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object lbNavBar: TLabel
+      Align = Left
+      StyledSettings = [Family, Style, FontColor]
+      HitTest = True
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.HorzAlign = Center
+    end
+    object sbPlus: TSpeedButton
+      Align = Right
+      Margins.Left = 2.500000000000000000
+      Margins.Right = 2.500000000000000000
+      Position.X = 289.500000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = sbPlusClick
+    end
+    object sbMinus: TSpeedButton
+      Align = Right
+      Margins.Left = 2.500000000000000000
+      Margins.Right = 2.500000000000000000
+      Position.X = 236.500000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = sbMinusClick
+    end
+  end
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 340.000000000000000000
+    Size.Height = 405.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object Text1: TText
+      Align = Client
+      Size.Width = 340.000000000000000000
+      Size.Height = 405.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object MultiView1: TMultiView
+    TargetControl = Layout1
+    MasterButton = lbNavBar
+    Size.Width = 250.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 1
+    object ListView1: TListView
+      ItemAppearanceClassName = 'TImageListItemAppearance'
+      ItemEditAppearanceClassName = 'TImageListItemDeleteAppearance'
+      HeaderAppearanceClassName = 'TListHeaderObjects'
+      FooterAppearanceClassName = 'TListHeaderObjects'
+      Align = Client
+      Size.Width = 249.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+  end
+end
