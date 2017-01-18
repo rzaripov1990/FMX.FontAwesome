@@ -1,0 +1,2 @@
+# FMX.FontAwesome
+[FireMonkey] FontAwesome
