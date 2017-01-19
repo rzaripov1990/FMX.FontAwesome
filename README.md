@@ -24,5 +24,10 @@
 </dict>
 </plist>
 ```
-## WINDOWS / MACOS
+
+## MACOS
+* Deploy font to project
+![release/debug] (images/osx.png)
+
+## WINDOWS
 * Install font to system
