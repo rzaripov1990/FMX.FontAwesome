@@ -35,7 +35,7 @@ implementation
 {$R *.fmx}
 
 uses
-  FontAwesome;
+  FMX.FontAwesome;
 
 /// <summary> Применить всем дочерним компонентам кастомный стиль </summary>
 procedure FontAwesomeApply(const Control: TControl);

@@ -1,4 +1,4 @@
-﻿unit FontAwesome;
+﻿unit FMX.FontAwesome;
 
 {
   Font Awesome 4.7

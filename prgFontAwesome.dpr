@@ -4,7 +4,7 @@ uses
   System.StartUpCopy,
   FMX.Forms,
   FMX.FontGlyphs.Android in 'FMX.FontGlyphs.Android.pas',
-  FontAwesome in 'FontAwesome.pas',
+  FMX.FontAwesome in 'FMX.FontAwesome.pas',
   uMain in 'uMain.pas' {FormMain},
   FMX.FontGlyphs in 'FMX.FontGlyphs.pas';
 
